@@ -33,7 +33,7 @@ const SignUpForm = () => {
             resetFormFields(); 
 
         } catch (error) {
-            console.log('error creating a user', error);
+            alert(`error creating a user, ${error.message}`);
         }
     }
 
